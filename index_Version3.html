@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RelevanceAI Chatbot</title>
+  <style>
+    /* Force dark red background */
+    .relevanceai-bubble {
+      background-color: #b00314 !important;
+      border-radius: 50% !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    /* Remove default icon */
+    .relevanceai-bubble svg {
+      display: none !important;
+    }
+
+    /* Add 3 black dots inside */
+    .relevanceai-bubble::before {
+      content: "•••";
+      color: black;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 3px;
+    }
+  </style>
+</head>
+<body>
+  <!-- RelevanceAI Chatbot Script -->
+  <script defer 
+    data-relevanceai-share-id="d7b62b/8d3d9951ea99-4c22-8639-23db35ef4dae/1ccb738f-d9f7-4518-a895-f313cdd5bcf6" 
+    src="https://app.relevanceai.com/embed/chat-bubble.js" 
+    data-share-styles="hide_tool_steps=false&hide_file_uploads=false&hide_conversation_list=false&bubble_style=icon&primary_color=%23b00314&bubble_icon=pd%2Fchat&input_placeholder_text=Type+your+message...&hide_logo=false&hide_description=false">
+  </script>
+</body>
+</html>
